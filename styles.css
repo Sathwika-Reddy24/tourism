@@ -1,0 +1,30 @@
+/* Custom styles */
+
+/* Adjust carousel height */
+.carousel-item {
+    height: 1000px; /* Adjust as needed */
+}
+
+/* Styling for About section */
+#about img {
+    max-width: 100%;
+}
+
+/* Styling for Destination cards */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 250px; /* Adjust carousel height for smaller screens */
+    }
+}
+.contact{
+    margin-bottom:100px
+}
